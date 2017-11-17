@@ -1,4 +1,4 @@
-# This A Portfolio That Shows Some Information About Me
+# A Portfolio That Shows Some Information About Me
 
 <p>This Portfolio was created using ReactJS. It uses props, state, and Bootstrap</p>
 
