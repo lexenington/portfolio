@@ -1,0 +1,17 @@
+.jumbotron{
+  padding-bottom: 2rem !important;
+}
+h4 a{
+  color: #28a745;
+  transition: all 0.7s ease;
+}
+h4 a:hover{
+  color: #007bff;
+  text-decoration: none;
+}
+@media (max-width: 600px)  {
+  .project-img{
+    width: 100%;
+    height:auto;
+  }
+}

@@ -1,0 +1,22 @@
+footer a{
+  color: #fff;
+  transition: all 0.7s ease;
+}
+footer a:hover{
+  color: #007bff;
+}
+.social{
+  font-size: 1.3em;
+}
+.copy{
+  text-align: right;
+}
+@media (max-width: 600px) {
+  .foot{
+    width: 100% !important;
+    justify-content: center !important;
+  }
+  .copy{
+    text-align: center;
+  }
+}

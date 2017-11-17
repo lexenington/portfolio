@@ -1,0 +1,26 @@
+.jumbotron {
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+@media (max-width: 600px) {
+  img{
+    height: 12rem;
+    width: 12rem;
+    padding:3rem
+  }
+}

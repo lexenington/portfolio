@@ -1,0 +1,15 @@
+
+.navbar-custom a {
+  color: white !important;
+
+}
+
+.navbar-toggler {
+  background-color: white
+}
+
+.navbar{
+  top: 0;
+  width: 100% !important;
+  z-index: 2;
+}
