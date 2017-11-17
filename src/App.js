@@ -49,7 +49,7 @@ let mySkills = [
   },
   {
     name: "Boostrap",
-    url: "/img/bootstrap.png"
+    url: "https://i.imgur.com/EwZiUNm.png"
   },
   {
     name: "ReactJS",
