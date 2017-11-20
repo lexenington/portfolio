@@ -1,6 +1,5 @@
 import React from "react";
 import "./Header.css";
-import ContactContainer from "../Contact"
 
 let Header = (props) => (
   <div className="head-section">

@@ -35,7 +35,7 @@ let Projects = (props) =>(
               </p>
             </div>
             <div className="col-lg-5 col-sm-12">
-              <a href="https://github.com/lexenington/mario-pest-control"><img className="img-fluid project-img mx-auto px-3" src="https://i.imgur.com/sCSYZBZ.jpg"/></a>
+              <a href="https://github.com/lexenington/mario-pest-control"><img className="img-fluid project-img mx-auto px-3" alt="..." src="https://i.imgur.com/sCSYZBZ.jpg"/></a>
             </div>
           </div>
         </div>
@@ -49,7 +49,7 @@ let Projects = (props) =>(
               </p>
             </div>
             <div className="col-lg-5 col-sm-12">
-              <a href="https://github.com/lexenington/escape-the-room" ><img className="img-fluid project-img mx-auto px-3" src="https://i.imgur.com/5qlSFgl.jpg"/></a>
+              <a href="https://github.com/lexenington/escape-the-room" ><img className="img-fluid project-img mx-auto px-3" alt="..." src="https://i.imgur.com/5qlSFgl.jpg"/></a>
             </div>
           </div>
         </div>
@@ -64,7 +64,7 @@ let Projects = (props) =>(
               </p>
             </div>
             <div className="col-lg-5 col-sm-12">
-              <a href="https://github.com/lexenington/react-blog"><img className="img-fluid project-img mx-auto px-3" src="https://i.imgur.com/GYx1Hnj.jpg"/></a>
+              <a href="https://github.com/lexenington/react-blog"><img className="img-fluid project-img mx-auto px-3 " alt="..." src="https://i.imgur.com/GYx1Hnj.jpg"/></a>
             </div>
           </div>
         </div>
