@@ -12,9 +12,6 @@ let links = [
   }, {
     name: "Projets",
     url: "#projects-section"
-  }, {
-    name: "Contact",
-    url: "#"
   }
 ]
 
