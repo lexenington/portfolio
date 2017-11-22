@@ -69,13 +69,13 @@ let Projects = (props) =>(
           </div>
         </div>
         <div className="my-3">
-          <h4 className="text-center my-3"><a href="https://github.com/lexenington/uglythings">React Blog</a></h4>
+          <h4 className="text-center my-3"><a href="https://github.com/lexenington/uglythings">Ugly Things: A React CRUD App</a></h4>
           <div className="row justify-content-center">
             <div className="col-lg-5">
               <p className="lead">
-                This is a React.js Project. In this project I created a blog for an African Magazine Company using the react.js.
-                Every item on the blog is components. For example, the navbar, header content/article and footer are all components. This shows I know how to use props in react
-                Props are data passed from parent components to child components. In combination with .map() method I took an array of objects and displayed as JSX to rendered on the webpage
+                This is a react app called Ugly Things. It is a CRUD application made with react.js, redux and bootstrap. A user may give the title, image url and description of things that are ugly. User may also remove an item if he wants to
+
+                This show that I know how to use props and states in react. It also show that I know how use redux to handle changes to states
               </p>
             </div>
             <div className="col-lg-5 col-sm-12">
