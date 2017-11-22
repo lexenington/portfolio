@@ -68,6 +68,21 @@ let Projects = (props) =>(
             </div>
           </div>
         </div>
+        <div className="my-3">
+          <h4 className="text-center my-3"><a href="https://github.com/lexenington/uglythings">React Blog</a></h4>
+          <div className="row justify-content-center">
+            <div className="col-lg-5">
+              <p className="lead">
+                This is a React.js Project. In this project I created a blog for an African Magazine Company using the react.js.
+                Every item on the blog is components. For example, the navbar, header content/article and footer are all components. This shows I know how to use props in react
+                Props are data passed from parent components to child components. In combination with .map() method I took an array of objects and displayed as JSX to rendered on the webpage
+              </p>
+            </div>
+            <div className="col-lg-5 col-sm-12">
+              <a href="https://github.com/lexenington/uglythings"><img className="img-fluid project-img mx-auto px-3 " alt="..." src="https://i.imgur.com/XRgG6HE.jpg"/></a>
+            </div>
+          </div>
+        </div>
       </Slider>
     </div>
   </div>

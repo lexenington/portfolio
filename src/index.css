@@ -6,3 +6,7 @@ html, body{
   background-attachment: fixed;
   background-repeat: repeat;
 }
+@media (max-width :600px) {
+  background-attachment: fixed;
+  background-repeat: repeat;
+}
