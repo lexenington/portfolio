@@ -19,8 +19,8 @@ let Header = (props) => (
               <div className="col-md-8">
                 <p className="lead display-5 text-justify">Based out of Accra, Ghana. Specializing in Front-End and Back-End web development.  If you are a business seeking a web presence or an employer looking to hire, you can get in touch with me  </p>
                 <div className="form-group">
-                  <a href="mailto:lexenington@gmail.com?Subject=I%20Want%20A%20Website" target="_top" className="btn btn-lg form-control btn-success m-3">I need a Website <i className="fa fa-angle-double-right" aria-hidden="true"></i></a>
-                  <a href="mailto:lexenington@gmail.com?Subject=I%20Want%20To%20Hire" className="btn btn-lg form-control btn-info m-3" >I am looking to Hire <i className="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                  <a href="mailto:lexenington@gmail.com?Subject=I%20Want%20A%20Website"  className="btn btn-lg form-control btn-success mt-3">I need a Website <i className="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                  <a href="mailto:lexenington@gmail.com?Subject=I%20Want%20To%20Hire" className="btn btn-lg form-control btn-info mt-3" >I am looking to Hire <i className="fa fa-angle-double-right" aria-hidden="true"></i></a>
                 </div>
               </div>
             </div>
