@@ -6,7 +6,7 @@
     "font-awesome": "^4.7.0",
     "react": "^16.1.0",
     "react-adinkra": "^1.0.7",
-    "react-dom": "^16.1.0",
+    "react-dom": "^16.1.2",
     "react-fontawesome": "^1.6.1",
     "react-scripts": "1.0.17",
     "react-slick": "^0.15.4",
