@@ -19,7 +19,7 @@ let footerSocial = [
   {
     name: "facebook",
     url: "http://www.facebook.com/lexenington"
-  }, {
+  }, {https://github.com/lexenington/portfolio.git
     name: "twitter",
     url: "http://www.twitter.com/lexenington"
   }, {
@@ -34,7 +34,7 @@ let footerSocial = [
 let mySkills = [
   {
     name: "HTML",
-    url: "https://cdn.churchm.ag/wp-content/uploads/2011/04/html5-logo.png"
+    url: "https://i.imgur.com/JZkE1PT.jpg"
   },
   {
     name: "CSS",
@@ -42,7 +42,7 @@ let mySkills = [
   },
   {
     name: "JavaScript",
-    url: "http://www.logotypes101.com/logos/531/E9BC19EB93F4FEA9236932ABAD8A7CFF/js.png",
+    url: "https://i.imgur.com/sL7Oe5n.jpg",
   },
   {
     name: "Boostrap",
@@ -50,7 +50,7 @@ let mySkills = [
   },
   {
     name: "ReactJS",
-    url:"http://agileengine.com/wordpress/wp-content/uploads/2016/08/reactJS-300x300.png"
+    url:"https://i.imgur.com/7GvmmMp.jpg"
   },
   {
     name: "Redux",
@@ -74,7 +74,7 @@ let mySkills = [
   },
   {
     name:"MongoDB",
-    url: "http://corballis.ie/wp-content/uploads/2016/06/mongodb-300x300.jpg"
+    url: "https://i.imgur.com/2hpOIlA.png"
   },
   {
     name:"Jquery",
@@ -82,7 +82,7 @@ let mySkills = [
   },
   {
     name:"Wordpress",
-    url: "https://www.dotemplate.com/adt/uploads/2015/02/wordpress-logo-vector-300x300.png",
+    url: "https://i.imgur.com/95hAuh0.png",
   },
   {
     name: "Hootsuite",
