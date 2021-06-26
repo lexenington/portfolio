@@ -19,7 +19,7 @@ let footerSocial = [
   {
     name: "facebook",
     url: "http://www.facebook.com/lexenington"
-  }, {https://github.com/lexenington/portfolio.git
+  }, {
     name: "twitter",
     url: "http://www.twitter.com/lexenington"
   }, {
