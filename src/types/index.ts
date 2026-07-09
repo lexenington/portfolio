@@ -14,6 +14,17 @@ export interface GitHubRepo {
   fork: boolean;
 }
 
+export interface FeaturedProject {
+  name: string;
+  tagline: string;
+  description: string;
+  highlights: string[];
+  tech: string[];
+  liveUrl?: string;
+  githubUrl?: string;
+  status?: string;
+}
+
 export interface SocialLink {
   name: string;
   url: string;

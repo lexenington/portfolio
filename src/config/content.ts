@@ -1,4 +1,76 @@
-import { Experience } from "@/types";
+import { Experience, FeaturedProject } from "@/types";
+
+export const featuredProjects: FeaturedProject[] = [
+  {
+    name: "EatryCloud",
+    tagline: "Cloud-based restaurant management platform",
+    description:
+      "An all-in-one system for running a restaurant: point of sale, kitchen display, inventory, and Mobile Money payments. Designed offline-first so service never stops when the connection does — orders sync automatically once the restaurant is back online.",
+    highlights: [
+      "Offline-first POS and Kitchen Display that keep working through outages",
+      "Mobile Money and card payments via Paystack",
+      "Real-time order flow between front of house and kitchen with Socket.io",
+      "Receipt printing on standard ESC/POS thermal printers",
+    ],
+    tech: [
+      "TypeScript",
+      "React",
+      "Remix",
+      "Fastify",
+      "PostgreSQL",
+      "Redis",
+      "Socket.io",
+      "PowerSync",
+      "Railway",
+    ],
+    liveUrl: "https://eatrycloud.com",
+  },
+  {
+    name: "RunMySales",
+    tagline: "AI sales agent for service businesses",
+    description:
+      "An autonomous sales agent that handles inbound conversations end to end — qualifying leads, uncovering pain points, handling objections, and booking real appointments. Urgent situations escalate to a human, and stale conversations get automatic follow-ups so no lead is dropped.",
+    highlights: [
+      "21-node conversation engine covering routing, qualification, psychology, and closing",
+      "Books real appointments through Claude tool use, not just chat",
+      "Automatic human handoff for emergencies from any point in the conversation",
+      "Nurture sequences re-engage leads that go quiet",
+    ],
+    tech: [
+      "TypeScript",
+      "Next.js",
+      "React",
+      "Hono",
+      "PostgreSQL",
+      "Drizzle ORM",
+      "Claude API",
+    ],
+    status: "In development",
+  },
+  {
+    name: "Webfront360 OS",
+    tagline: "Audience-to-customer engine for local businesses",
+    description:
+      "A content system that finds what a local business should post, writes it, renders the vertical video, schedules it, and learns what converts — so a busy owner earns attention that turns into customers without the daily grind.",
+    highlights: [
+      "AI pipeline from idea to script with a quality-gate judge before anything ships",
+      "Automated vertical video rendering with Remotion, captions, and voiceover",
+      "Learns from performance to double down on what converts",
+      "Multi-tenant with per-item cost metering and compliance guardrails built in",
+    ],
+    tech: [
+      "TypeScript",
+      "Next.js",
+      "Prisma",
+      "PostgreSQL",
+      "Redis",
+      "BullMQ",
+      "Remotion",
+      "Claude API",
+    ],
+    status: "In development",
+  },
+];
 
 export const aboutContent = {
   headline: "Building scalable software that solves real-world challenges",

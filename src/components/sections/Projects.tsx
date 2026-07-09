@@ -1,6 +1,7 @@
-import { ExternalLink, Github, Star, GitFork } from "lucide-react";
+import { ExternalLink, Github, Star, GitFork, CheckCircle2 } from "lucide-react";
 import { GitHubRepo } from "@/types";
 import { Container } from "@/components/layout/Container";
+import { featuredProjects } from "@/config/content";
 
 interface ProjectsProps {
   repos: GitHubRepo[];
@@ -22,6 +23,87 @@ export function Projects({ repos }: ProjectsProps) {
       <Container>
         <h2 className="text-3xl font-bold text-foreground mb-2">Projects</h2>
         <div className="h-1 w-16 bg-primary mb-8" />
+
+        <div className="space-y-6 mb-12">
+          {featuredProjects.map((project) => (
+            <div
+              key={project.name}
+              className="bg-background border border-primary/30 rounded-lg p-8 hover:border-primary/60 transition-colors"
+            >
+              <div className="flex flex-wrap items-start justify-between gap-4 mb-1">
+                <div>
+                  <span className="text-xs font-medium uppercase tracking-wider text-primary">
+                    Featured
+                  </span>
+                  <h3 className="text-2xl font-bold text-foreground">
+                    {project.name}
+                  </h3>
+                  <p className="text-muted text-sm">{project.tagline}</p>
+                </div>
+                <div className="flex items-center gap-3">
+                  {project.status && (
+                    <span className="inline-flex items-center gap-1.5 text-xs font-medium text-muted border border-border rounded-full px-3 py-1.5">
+                      <span className="w-2 h-2 rounded-full bg-yellow-400" />
+                      {project.status}
+                    </span>
+                  )}
+                  {project.githubUrl && (
+                    <a
+                      href={project.githubUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-muted hover:text-primary transition-colors"
+                      aria-label="View on GitHub"
+                    >
+                      <Github size={20} />
+                    </a>
+                  )}
+                  {project.liveUrl && (
+                    <a
+                      href={project.liveUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 bg-primary text-background text-sm font-medium px-4 py-2 rounded-md hover:opacity-90 transition-opacity"
+                    >
+                      Visit site
+                      <ExternalLink size={14} />
+                    </a>
+                  )}
+                </div>
+              </div>
+
+              <p className="text-muted mt-4 mb-5 max-w-3xl">
+                {project.description}
+              </p>
+
+              <ul className="grid sm:grid-cols-2 gap-x-6 gap-y-2 mb-6">
+                {project.highlights.map((highlight) => (
+                  <li
+                    key={highlight}
+                    className="flex items-start gap-2 text-sm text-muted"
+                  >
+                    <CheckCircle2
+                      size={16}
+                      className="text-primary mt-0.5 shrink-0"
+                    />
+                    {highlight}
+                  </li>
+                ))}
+              </ul>
+
+              <div className="flex flex-wrap gap-2">
+                {project.tech.map((tech) => (
+                  <span
+                    key={tech}
+                    className="text-xs text-muted border border-border rounded-full px-3 py-1"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
 
         <div className="grid md:grid-cols-2 gap-6">
           {repos.map((repo) => (
